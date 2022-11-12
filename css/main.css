@@ -153,16 +153,16 @@ section {
 }
 
 .hero{
-    background-image: url(images/hero.jpg);
+    background-image: url(../img/hero.jpg);
     height: 400px;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     text-transform: uppercase;
 }
 
 .hero h1{
     position: relative;
-    background-position-x: -30px;
+    left: -30px;
 }
 
 .hero h2{
@@ -230,7 +230,7 @@ section {
     color: #faa541;
 }
 
-.category-text > h3 {
+.category-text h3 {
     font-size: 30px;
     font-weight: 700;
     line-height: 1;
